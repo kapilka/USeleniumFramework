@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test" duration-ms="30" started-at="2016-03-16T12:57:10Z" finished-at="2016-03-16T12:57:10Z">
+    <groups>
+    </groups>
+    <test name="smoke testcases" duration-ms="30" started-at="2016-03-16T12:57:10Z" finished-at="2016-03-16T12:57:10Z">
+      <class name="testngFiles.Annotations">
+        <test-method status="PASS" signature="DeleteCookies()[pri:0, instance:testngFiles.Annotations@10375b3]" name="DeleteCookies" is-config="true" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCookies -->
+        <test-method status="PASS" signature="userIDGeneration()[pri:0, instance:testngFiles.Annotations@10375b3]" name="userIDGeneration" is-config="true" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userIDGeneration -->
+        <test-method status="PASS" signature="Clicking()[pri:0, instance:testngFiles.Annotations@10375b3]" name="Clicking" duration-ms="3" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clicking -->
+        <test-method status="PASS" signature="userIDGeneration()[pri:0, instance:testngFiles.Annotations@10375b3]" name="userIDGeneration" is-config="true" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userIDGeneration -->
+        <test-method status="PASS" signature="DropdownField()[pri:0, instance:testngFiles.Annotations@10375b3]" name="DropdownField" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropdownField -->
+        <test-method status="PASS" signature="ReportAdding()[pri:0, instance:testngFiles.Annotations@10375b3]" name="ReportAdding" is-config="true" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportAdding -->
+        <test-method status="PASS" signature="ReportAdding()[pri:0, instance:testngFiles.Annotations@10375b3]" name="ReportAdding" is-config="true" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportAdding -->
+        <test-method status="FAIL" signature="login()[pri:0, instance:testngFiles.Annotations@10375b3]" name="login" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Udemy\VE\src\VirtaulEdge\datadriven.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Udemy\VE\src\VirtaulEdge\datadriven.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at testngFiles.Annotations.login(Annotations.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="userIDGeneration()[pri:0, instance:testngFiles.Annotations@10375b3]" name="userIDGeneration" is-config="true" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userIDGeneration -->
+        <test-method status="PASS" signature="navigating()[pri:0, instance:testngFiles.Annotations@10375b3]" name="navigating" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigating -->
+        <test-method status="PASS" signature="ReportAdding()[pri:0, instance:testngFiles.Annotations@10375b3]" name="ReportAdding" is-config="true" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportAdding -->
+        <test-method status="PASS" signature="userIDGeneration()[pri:0, instance:testngFiles.Annotations@10375b3]" name="userIDGeneration" is-config="true" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userIDGeneration -->
+        <test-method status="PASS" signature="ReportAdding()[pri:0, instance:testngFiles.Annotations@10375b3]" name="ReportAdding" is-config="true" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportAdding -->
+        <test-method status="PASS" signature="ReportAdding()[pri:0, instance:testngFiles.Annotations@10375b3]" name="ReportAdding" is-config="true" duration-ms="3" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportAdding -->
+        <test-method status="PASS" signature="openingBrowser()[pri:0, instance:testngFiles.Annotations@10375b3]" name="openingBrowser" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingBrowser -->
+        <test-method status="PASS" signature="userIDGeneration()[pri:0, instance:testngFiles.Annotations@10375b3]" name="userIDGeneration" is-config="true" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userIDGeneration -->
+        <test-method status="PASS" signature="AfterCookies()[pri:0, instance:testngFiles.Annotations@10375b3]" name="AfterCookies" is-config="true" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterCookies -->
+      </class> <!-- testngFiles.Annotations -->
+      <class name="testngFiles.Annotation2">
+        <test-method status="PASS" signature="installSoftware()[pri:0, instance:testngFiles.Annotation2@9a8472]" name="installSoftware" is-config="true" duration-ms="10" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- installSoftware -->
+        <test-method status="PASS" signature="Software()[pri:0, instance:testngFiles.Annotation2@9a8472]" name="Software" duration-ms="5" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Software -->
+        <test-method status="PASS" signature="Done()[pri:0, instance:testngFiles.Annotation2@9a8472]" name="Done" is-config="true" duration-ms="0" started-at="2016-03-16T18:27:10Z" finished-at="2016-03-16T18:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Done -->
+      </class> <!-- testngFiles.Annotation2 -->
+    </test> <!-- smoke testcases -->
+  </suite> <!-- Automation Test -->
+</testng-results>

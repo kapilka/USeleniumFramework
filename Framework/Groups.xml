@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation Test">
+	<test name="smoke testcases">
+		<groups> 
+			<run>
+				<include name="priority1" />
+			
+			</run>
+		
+		</groups>
+		
+		<classes>
+		
+					<class name ="PackageTwo.Annotations">
+
+	
+		</class>
+		</classes>
+	</test>
+</suite>
